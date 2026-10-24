@@ -85,7 +85,7 @@ p { margin: 0; }
 .nav-links a:not(.btn):hover { text-decoration: underline; text-underline-offset: 4px; }
 .menu-toggle { display: none; background: none; border: 0; color: var(--teal); width: 44px; height: 44px; cursor: pointer; border-radius: 8px; }
 
-@media (max-width: 860px) {
+@media (max-width: 960px) {
   .menu-toggle { display: inline-flex; align-items: center; justify-content: center; }
   .nav { flex-wrap: wrap; }
   .nav-links { display: none; width: 100%; flex-direction: column; align-items: stretch; gap: 4px; padding: 8px 0 12px; }
@@ -109,6 +109,18 @@ p { margin: 0; }
 .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; margin-top: 28px; }
 .pillar { border-top: 2px solid var(--lime); padding-top: 24px; }
 .pillar p:last-child { color: var(--on-dark); }
+
+/* About */
+.about { display: flex; flex-wrap: wrap; gap: 40px; align-items: center; }
+.about-copy { flex: 999 1 520px; min-width: 0; }
+.about-copy .lead { max-width: 38rem; margin-bottom: 36px; }
+.about-copy h3 { font-size: 1.25rem; margin-bottom: 8px; }
+.about-copy p:last-child { max-width: 38rem; color: var(--muted); }
+.founder { flex: 1 1 320px; background: var(--mist); border: 1px solid var(--sage); border-radius: var(--radius); padding: 32px; display: flex; flex-direction: column; gap: 4px; }
+.founder-photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; }
+.founder-photo-placeholder { display: flex; align-items: center; justify-content: center; background: var(--sage); color: var(--teal); }
+.founder h3 { color: var(--teal); margin-bottom: 0; }
+.founder-title { font-weight: 600; color: var(--muted); margin-bottom: 12px !important; }
 
 /* Session */
 .session { display: flex; flex-wrap: wrap; gap: 40px; align-items: stretch; }
@@ -190,3 +202,11 @@ legend { margin-bottom: 10px; padding: 0; }
 .footer-brand { display: flex; flex-direction: column; gap: 6px; max-width: 34rem; }
 .wordmark { font-family: var(--display); font-weight: 700; font-size: 1rem; letter-spacing: 0.04em; color: var(--teal); }
 .footer-links { display: flex; flex-wrap: wrap; gap: 20px; }
+
+/* Policy page */
+.policy { max-width: 46rem; padding-top: 72px; }
+.policy h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); }
+.policy h2 { font-size: 1.5rem; color: var(--teal); margin: 40px 0 12px; }
+.policy p, .policy ul { margin: 0 0 14px; }
+.policy ul { padding-left: 22px; }
+.policy li { margin-bottom: 6px; }

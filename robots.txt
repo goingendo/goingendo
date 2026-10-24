@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://goingendo.com/sitemap.xml

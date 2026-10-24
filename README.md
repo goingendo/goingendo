@@ -7,7 +7,9 @@ A one page launch site for Going Endo. Plain HTML, CSS, and JavaScript. No build
 
 ### Files
 
-- `index.html` is the page and all of its words
+- `index.html` is the home page and all of its words
+- `privacy.html` is the privacy policy (update its effective date when you change it)
+- `sitemap.xml` and `robots.txt` point search engines at https://goingendo.com
 - `styles.css` holds colors, fonts, and layout (palette at the top)
 - `script.js` runs the mobile menu and the signup form
 - `assets/` holds the logo and icons
@@ -17,6 +19,10 @@ A one page launch site for Going Endo. Plain HTML, CSS, and JavaScript. No build
 The speaker, date, and venue currently read "to be announced" in `index.html`. Update them when they are confirmed.
 
 When tickets go on sale, change the `href="#signup"` on the **Reserve your spot** button (id `ticket-link`) to your Eventbrite link.
+
+### Founder photo
+
+The About section shows a placeholder circle. Add a square photo as `assets/founder.jpg`, then replace the `founder-photo-placeholder` div in `index.html` with the `<img>` tag given in the comment above it.
 
 ### Signup form
 
