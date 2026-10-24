@@ -1,0 +1,38 @@
+# Going Endo
+
+Mission: Going Endo helps people and organizations turn emerging technology insight into practical innovation.
+
+## Writing rules (always)
+
+Apply to all visible text on the site.
+
+- No hyphens or dashes (-, –, —) in sentences
+- No commas in headings
+- No small label lines above headlines
+
+## Brand voice
+
+- Smart but approachable, ambitious but grounded, optimistic but evidence led, clear and direct
+- Prefer: explore, understand, connect, experiment, build, solve
+- Avoid hype: disruption, revolutionary, exponential, world changing
+- Never imply affiliation with Singularity University or any other institution
+- Never invent stats, partners, or outcomes. Use "to be announced" when details are unknown.
+
+## Palette and type
+
+| Name | Hex | Use |
+| --- | --- | --- |
+| Deep Endo Teal | #123C3A | Primary |
+| Electric Lime | #C7F36B | Accents and buttons only. Never small text on light backgrounds. |
+| Warm Ivory | #F5F3EA | Background |
+| Graphite | #252B2B | Body text |
+| Sage Mist | #B8C9BD | Secondary |
+
+Fonts: Sora for headings, Inter for body. Colors are defined as variables at the top of `styles.css`.
+
+## Site
+
+- Plain HTML, CSS, and JS. No framework, package.json, or build step.
+- Deploys on Vercel from `main`.
+- Signups go to Formspree (form action in `index.html`).
+- Contact: hello@goingendo.com
