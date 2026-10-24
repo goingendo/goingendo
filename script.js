@@ -40,6 +40,8 @@ if (form) {
         body: new FormData(form),
       });
       if (!res.ok) throw new Error(res.status);
+      // Count the signup without sending any form values
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form_name: 'launch-list' });
       form.hidden = true;
       thanks.hidden = false;
       thanks.setAttribute('tabindex', '-1');
