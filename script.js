@@ -27,8 +27,18 @@ const interestOptions = {
   briefing: 'A briefing for our members',
   workshop: 'A workshop for our leadership team',
 };
+// Member count is asked only for briefings; disabled when hidden so it is not sent
+const membersField = document.getElementById('members-field');
+function toggleMembers() {
+  if (!interestSelect || !membersField) return;
+  const show = interestSelect.value === interestOptions.briefing;
+  membersField.hidden = !show;
+  membersField.querySelector('input').disabled = !show;
+}
+if (interestSelect) interestSelect.addEventListener('change', toggleMembers);
 function preselectInterest(key) {
   if (interestSelect && interestOptions[key]) interestSelect.value = interestOptions[key];
+  toggleMembers();
 }
 document.querySelectorAll('[data-interest]').forEach((a) =>
   a.addEventListener('click', () => preselectInterest(a.dataset.interest))
