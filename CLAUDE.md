@@ -1,6 +1,8 @@
 # Going Endo
 
-Mission: Going Endo helps people and organizations turn emerging technology insight into practical innovation.
+Purpose: Going Endo brings emerging technology education into a company and helps its team test one real idea on a real problem. The name means "going within": we work inside your company instead of sending leaders away to a conference. Everything on the site supports this.
+
+The site is in prelaunch and has one action: Request an early briefing (the form at `#briefing`).
 
 ## Writing rules (always)
 
@@ -34,7 +36,9 @@ Fonts: Sora for headings, Inter for body. Colors are defined as variables at the
 
 - Plain HTML, CSS, and JS. No framework, package.json, or build step.
 - Deploys on Vercel from `main`.
-- Signups go to Formspree (form action in `index.html`).
+- Briefing requests go to Formspree (form action in `index.html`).
+- Keep the FAQ and FAQPage JSON-LD in sync.
+- `llms.txt` summarizes the site for AI assistants. Update it when the offer changes.
 - Every new page must include the Google tag G-PE0M7C7KN4 right after <head>.
 - New pages reuse the same header, footer, and styles.css as index.html, and get added to sitemap.xml.
 - Keep privacy.html accurate when adding any new service, form, or tracking.
