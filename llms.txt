@@ -1,29 +1,41 @@
 # Going Endo
 
-> Going Endo brings emerging technology education into a company and helps its team test one real idea on a real problem. The name means "going within": we work inside your company instead of sending leaders away to a conference.
+> Going Endo works with businesses and industry partners to apply emerging technologies to meaningful challenges and strengthen the industries they depend on.
 
-Going Endo LLC is an independent emerging technology education company based in Utah. It is preparing to launch and is inviting its first company partners.
+Going Endo LLC is an independent emerging technology education and innovation company based in Salt Lake City, Utah, built to work with industries internationally. The name means "going within": working inside companies and industries rather than apart from them.
 
-## Who it serves
+## Status
 
-Leadership teams at companies with roughly 100 to 5,000 employees, plus the chambers, industry groups, and universities that support them. Going Endo works with companies across the United States, on site or online.
+Going Endo is preparing to launch and is inviting its first industry partners.
 
-## How it works
+## Who it works with
 
-1. Learn: experts teach your leadership team what AI and other emerging technologies mean for your industry.
-2. Test: Going Endo works with your team for several weeks on one real problem in your operations.
-3. Keep: you leave with a working pilot and measured results.
+Companies, industry associations, economic development organizations, universities, and research institutions.
 
-## How it starts
+## What it does
 
-With a free briefing for your leadership team. If there is a good fit, Going Endo plans a short program and an applied project with you. Program pricing depends on scope and is shared after the briefing.
+1. Identify challenges: find problems worth solving across an industry.
+2. Bring people together: connect businesses with technology experts, researchers, and regional partners.
+3. Apply technology: develop and test practical solutions.
+4. Measure results: evaluate business performance and broader economic value.
 
-## Contact
+Technologies include artificial intelligence, automation, data, energy technologies, and other emerging technologies relevant to the industry.
 
+## What it is not
+
+- Not a technology news website.
+- Not a generic AI training company.
+- Not a conference business built on one time events.
+- Not a broad consultancy claiming to solve every problem.
+
+Education and events support the work. The work is applying technology to real challenges.
+
+## Get in touch
+
+- Share a challenge: https://goingendo.com/#contact
 - Email: hello@goingendo.com
-- Request a briefing: https://goingendo.com/#briefing
 
 ## Pages
 
-- [Home](https://goingendo.com/): what Going Endo does, how it works, FAQ, and the briefing request form
-- [Privacy Policy](https://goingendo.com/privacy.html): what the briefing form collects and how it is used
+- [Home](https://goingendo.com/): what Going Endo does, what it is not, FAQ, and the contact form
+- [Privacy Policy](https://goingendo.com/privacy.html): what the contact form collects and how it is used

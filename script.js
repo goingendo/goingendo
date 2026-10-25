@@ -21,7 +21,7 @@ if (toggle && links) {
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
 
-// Briefing request form (Formspree; submits in the background and shows a thank you)
+// Contact form (Formspree; submits in the background and shows a thank you)
 const form = document.getElementById('signup-form');
 if (form) {
   const thanks = document.querySelector('.thanks');
@@ -40,8 +40,8 @@ if (form) {
         body: new FormData(form),
       });
       if (!res.ok) throw new Error(res.status);
-      // Count the request without sending any form values
-      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form_name: 'early-briefing' });
+      // Count the message without sending any form values
+      if (typeof gtag === 'function') gtag('event', 'generate_lead', { form_name: 'discuss-challenge' });
       form.hidden = true;
       thanks.hidden = false;
       thanks.setAttribute('tabindex', '-1');
@@ -49,7 +49,7 @@ if (form) {
     } catch (err) {
       error.hidden = false;
       btn.disabled = false;
-      btn.textContent = 'Request a briefing';
+      btn.textContent = 'Send';
     }
   });
 }

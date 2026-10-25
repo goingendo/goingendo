@@ -5,15 +5,15 @@ Emerging technology education, innovation, and venture building
 
 A one page prelaunch site for Going Endo. Plain HTML, CSS, and JavaScript. No build step.
 
-Going Endo brings emerging technology education into a company and helps its team test one real idea on a real problem. The page has one action: Request an early briefing.
+Going Endo works with businesses and industry partners to apply emerging technologies to meaningful challenges and strengthen the industries they depend on. The page has one action: Discuss a challenge.
 
 ### Files
 
-- `index.html` is the home page: hero, how it works, an illustrative example, who it is for, founder note, FAQ, and the briefing form
+- `index.html` is the home page: hero, what we do, what we are not, about, FAQ, and the contact form
 - `privacy.html` is the privacy policy (update its effective date when you change it)
 - `styles.css` holds colors, fonts, and layout (palette at the top)
-- `script.js` runs the mobile menu and the briefing form
-- `assets/` holds the logo and icons
+- `script.js` runs the mobile menu and the contact form
+- `assets/` holds the logo, icons, and founder photo (`founder.jpg`, square)
 - `sitemap.xml` and `robots.txt` point search engines at https://goingendo.com
 - `llms.txt` is a plain text summary for AI assistants
 
@@ -21,13 +21,9 @@ Going Endo brings emerging technology education into a company and helps its tea
 
 The `<head>` of `index.html` has JSON-LD for the Organization and an FAQPage. The FAQPage questions and answers must match the visible FAQ section word for word, so edit both together.
 
-### Founder photo
+### Contact form
 
-The founder card uses `assets/founder.jpg` (square, 400 by 400). To change the photo, replace that file with another square image.
-
-### Briefing form
-
-Requests go to Formspree form `xjyykvle` (the form's `action` in `index.html`). Submissions show up in the Formspree dashboard and by email. A successful request sends a `generate_lead` event to Google Analytics with no form values.
+Messages go to Formspree form `xjyykvle` (the form's `action` in `index.html`). Submissions show up in the Formspree dashboard and by email. A successful message sends a `generate_lead` event to Google Analytics with no form values.
 
 ### Analytics
 

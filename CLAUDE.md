@@ -1,8 +1,20 @@
 # Going Endo
 
-Purpose: Going Endo brings emerging technology education into a company and helps its team test one real idea on a real problem. The name means "going within": we work inside your company instead of sending leaders away to a conference. Everything on the site supports this.
+Positioning: Going Endo works with businesses and industry partners to apply emerging technologies to meaningful challenges and strengthen the industries they depend on. The name means "going within": working inside companies and industries rather than apart from them. Everything on the site supports this.
 
-The site is in prelaunch and has one action: Request an early briefing (the form at `#briefing`).
+What we do (the four activities):
+1. Identify challenges: find problems worth solving across an industry.
+2. Bring people together: connect businesses with technology experts, researchers, and regional partners.
+3. Apply technology: develop and test practical solutions.
+4. Measure results: evaluate business performance and broader economic value.
+
+What we are not (the four trade offs):
+- Not a technology news website.
+- Not a generic AI training company.
+- Not a conference business built on one time events.
+- Not a broad consultancy claiming to solve every problem.
+
+The site is in prelaunch and has one action: Discuss a challenge (the form at `#contact`).
 
 ## Writing rules (always)
 
@@ -19,6 +31,9 @@ Apply to all visible text on the site.
 - Avoid hype: disruption, revolutionary, exponential, world changing
 - Never imply affiliation with Singularity University or any other institution
 - Never invent stats, partners, or outcomes. Use "to be announced" when details are unknown.
+- Never list partners, advisors, projects, or results until they are confirmed in writing.
+- Never use the phrase "shared value".
+- Style is Apple inspired: big type, lots of white space, very few words, one idea per section.
 
 ## Palette and type
 
@@ -36,7 +51,7 @@ Fonts: Sora for headings, Inter for body. Colors are defined as variables at the
 
 - Plain HTML, CSS, and JS. No framework, package.json, or build step.
 - Deploys on Vercel from `main`.
-- Briefing requests go to Formspree (form action in `index.html`).
+- Contact form messages go to Formspree (form action in `index.html`).
 - Keep the FAQ and FAQPage JSON-LD in sync.
 - `llms.txt` summarizes the site for AI assistants. Update it when the offer changes.
 - Every new page must include the Google tag G-PE0M7C7KN4 right after <head>.
