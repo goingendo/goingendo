@@ -108,7 +108,6 @@ p { margin: 0; }
 .center-block .display { max-width: 16ch; }
 .statement-lg { font-family: var(--display); font-weight: 600; font-size: clamp(1.6rem, 3.6vw, 2.6rem); line-height: 1.2; letter-spacing: -0.02em; color: var(--graphite); max-width: 24ch; text-wrap: balance; }
 .statement-accent { font-family: var(--display); font-weight: 600; font-size: clamp(1.6rem, 3.6vw, 2.6rem); line-height: 1.2; letter-spacing: -0.02em; color: var(--teal); max-width: 24ch; margin-top: 16px; text-wrap: balance; }
-#where .statement-lg { max-width: 30ch; }
 .fine { margin-top: 32px; font-size: 0.95rem; color: var(--muted); }
 
 /* Two ways in */
@@ -116,13 +115,15 @@ p { margin: 0; }
 .way { background: var(--ivory); border-radius: 28px; padding: clamp(32px, 5vw, 56px); display: flex; flex-direction: column; gap: 16px; }
 .way h3 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); line-height: 1.08; letter-spacing: -0.03em; color: var(--teal); }
 .way-audience { font-weight: 600; color: var(--muted); }
-.way p:not(.way-audience) { font-size: 1.125rem; color: #3A4241; margin-bottom: 12px; }
+.way-big { font-family: var(--display); font-weight: 600; font-size: clamp(1.4rem, 2.6vw, 1.9rem); line-height: 1.2; letter-spacing: -0.02em; color: var(--graphite); margin-top: 8px; }
+.way-list { list-style: none; margin: 4px 0 20px; padding: 0; display: grid; gap: 8px; font-size: 1.125rem; color: #3A4241; }
+.availability { margin-top: clamp(48px, 7vw, 80px); text-align: center; font-size: clamp(1.1rem, 1.8vw, 1.3rem); color: var(--muted); text-wrap: balance; }
 .way .btn { align-self: flex-start; margin-top: auto; }
 .way-dark { background: var(--teal); }
 .way-dark h3 { color: var(--ivory); }
 .way-dark .way-audience { color: var(--sage); }
-.way-dark p:not(.way-audience) { color: var(--on-dark); }
-.way-dark strong { color: var(--ivory); }
+.way-dark .way-big { color: var(--ivory); }
+.way-dark .way-list { color: var(--on-dark); }
 .btn-lime { background: var(--lime); color: var(--teal); font-weight: 700; }
 .btn-lime:hover { background: #B6E655; color: var(--teal); }
 
