@@ -1,18 +1,8 @@
 # Going Endo
 
-Positioning: Going Endo works with businesses and industry partners to apply emerging technologies to meaningful challenges and strengthen the industries they depend on. The name means "going within": working inside companies and industries rather than apart from them. Everything on the site supports this.
+Positioning: Find the AI worth doing. Going Endo helps leadership teams choose the AI use case that pays off twice: for the business, and for the customers, workers, and suppliers it depends on. The name means "going within": we go inside your company and your industry. Everything on the site supports this.
 
-What we do (the four activities):
-1. Identify challenges: find problems worth solving across an industry.
-2. Bring people together: connect businesses with technology experts, researchers, and regional partners.
-3. Apply technology: develop and test practical solutions.
-4. Measure results: evaluate business performance and broader economic value.
-
-What we are not (the four trade offs):
-- Not a technology news website.
-- Not a generic AI training company.
-- Not a conference business built on one time events.
-- Not a broad consultancy claiming to solve every problem.
+How it works: Learn, Choose, Plan. Two ways in: the Going Endo AI Briefing (associations, chambers, and innovation agencies) and the Going Endo AI Use Case Workshop (leadership teams). Markets: United States, United Arab Emirates, Singapore, United Kingdom, Switzerland. Based in Salt Lake City, delivered online.
 
 The site is in prelaunch and has one action: Discuss a challenge (the form at `#contact`).
 
@@ -23,16 +13,20 @@ Apply to all visible text on the site.
 - No hyphens or dashes (-, –, —) in sentences
 - No commas in headings
 - No small label lines above headlines
+- Never say "shared value"
+- Never mention Singularity University or PwC
+- No prices, dates, or timelines
+- Never invent clients, partners, or results
+- Going Endo does not build or sell technology
 
 ## Brand voice
 
 - Smart but approachable, ambitious but grounded, optimistic but evidence led, clear and direct
 - Prefer: explore, understand, connect, experiment, build, solve
 - Avoid hype: disruption, revolutionary, exponential, world changing
-- Never imply affiliation with Singularity University or any other institution
-- Never invent stats, partners, or outcomes. Use "to be announced" when details are unknown.
+- Never imply affiliation with any university, institute, or other organization
+- Never invent stats, partners, or outcomes
 - Never list partners, advisors, projects, or results until they are confirmed in writing.
-- Never use the phrase "shared value".
 - Style is Apple inspired: big type, lots of white space, very few words, one idea per section.
 
 ## Palette and type
