@@ -23,7 +23,7 @@ The `<head>` of `index.html` has JSON-LD for the Organization and an FAQPage. Th
 
 ### Founder photo
 
-The About section shows a placeholder circle. Add a square photo as `assets/founder.jpg`, then replace the `founder-photo-placeholder` div in `index.html` with the `<img>` tag given in the comment above it.
+The founder card uses `assets/founder.jpg` (square, 400 by 400). To change the photo, replace that file with another square image.
 
 ### Briefing form
 

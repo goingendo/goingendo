@@ -131,7 +131,6 @@ p { margin: 0; }
 .about-copy .lead { max-width: 38rem; }
 .founder { flex: 1 1 320px; background: var(--mist); border: 1px solid var(--sage); border-radius: var(--radius); padding: 32px; display: flex; flex-direction: column; gap: 4px; }
 .founder-photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; }
-.founder-photo-placeholder { display: flex; align-items: center; justify-content: center; background: var(--sage); color: var(--teal); }
 .founder h3 { color: var(--teal); margin-bottom: 0; }
 .founder-title { font-weight: 600; color: var(--muted); margin-bottom: 12px !important; }
 
