@@ -21,6 +21,21 @@ if (toggle && links) {
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
 
+// Buttons that open the contact form with an "I'm interested in" option chosen
+const interestSelect = document.getElementById('interest');
+const interestOptions = {
+  briefing: 'A briefing for our members',
+  workshop: 'A workshop for our leadership team',
+};
+function preselectInterest(key) {
+  if (interestSelect && interestOptions[key]) interestSelect.value = interestOptions[key];
+}
+document.querySelectorAll('[data-interest]').forEach((a) =>
+  a.addEventListener('click', () => preselectInterest(a.dataset.interest))
+);
+// Links from other pages pass the choice as ?interest=briefing or ?interest=workshop
+preselectInterest(new URLSearchParams(location.search).get('interest'));
+
 // Contact form (Formspree; submits in the background and shows a thank you)
 const form = document.getElementById('signup-form');
 if (form) {
@@ -49,7 +64,7 @@ if (form) {
     } catch (err) {
       error.hidden = false;
       btn.disabled = false;
-      btn.textContent = 'Send';
+      btn.textContent = 'Send request';
     }
   });
 }

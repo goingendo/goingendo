@@ -101,7 +101,7 @@
             "name": "What is the AI Briefing?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now."
+              "text": "A single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. There is no cost to the host organization."
             }
           },
           {
@@ -149,7 +149,7 @@
             "name": "What does it cost?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Briefing arrangements are agreed with each partner. Workshop details come in a first conversation."
+              "text": "Briefings are free for host organizations. Workshop details come in a first conversation."
             }
           },
           {
@@ -198,7 +198,7 @@
         <a href="#how-it-works">How it works</a>
         <a href="#faq">FAQ</a>
         <a href="#about">About</a>
-        <a href="#contact" class="btn btn-dark btn-sm">Discuss a challenge</a>
+        <a href="#contact" class="btn btn-dark btn-sm" data-interest="briefing">Host a briefing</a>
       </div>
     </nav>
   </header>
@@ -208,8 +208,18 @@
     <section id="top" class="wrap hero">
       <h1>Find the AI worth doing.</h1>
       <p class="hero-sub">Your industry. Your challenge. One clear answer.</p>
-      <p class="hero-lead">Going Endo helps leadership teams choose the AI use case that pays off twice: for the business, and for the customers, workers, and suppliers it depends on.</p>
-      <a href="#contact" class="btn btn-dark btn-lg">Discuss a challenge</a>
+      <div class="paths">
+        <div class="path">
+          <h2>Lead a group of businesses?</h2>
+          <p>Bring AI to your members.</p>
+          <a href="#contact" class="btn btn-dark btn-lg" data-interest="briefing">Host a briefing</a>
+        </div>
+        <div class="path">
+          <h2>Lead a company?</h2>
+          <p>Find the AI your company should use.</p>
+          <a href="#contact" class="btn btn-dark btn-lg" data-interest="workshop">Book a workshop</a>
+        </div>
+      </div>
       <p class="hero-note">Now inviting our first partners and clients.</p>
     </section>
 
@@ -248,25 +258,26 @@
         <div class="ways">
           <article class="way">
             <h3>AI Briefing</h3>
-            <p class="way-audience">For associations, chambers, and innovation agencies.</p>
+            <p class="way-audience">Lead a group of businesses?</p>
             <p class="way-big">Show your members what AI can do for their industry.</p>
             <ul class="way-list">
               <li>One session.</li>
               <li>Built for your industry.</li>
               <li>Prepared and delivered by us.</li>
+              <li>No cost to your organization.</li>
             </ul>
-            <a href="#contact" class="btn btn-dark">Host a briefing</a>
+            <a href="#contact" class="btn btn-dark" data-interest="briefing">Host a briefing</a>
           </article>
           <article class="way way-dark">
             <h3>AI Workshop</h3>
-            <p class="way-audience">For leadership teams.</p>
+            <p class="way-audience">Lead a company?</p>
             <p class="way-big">Decide which AI is worth doing.</p>
             <ul class="way-list">
               <li>Your leaders. Your challenges.</li>
               <li>One use case, chosen and written up.</li>
               <li>A plan to test it.</li>
             </ul>
-            <a href="#contact" class="btn btn-lime">Discuss a challenge</a>
+            <a href="#contact" class="btn btn-lime" data-interest="workshop">Book a workshop</a>
           </article>
         </div>
         <p class="availability">Available in the United States, the UAE, Singapore, the UK, and Switzerland. Online or in person.</p>
@@ -311,7 +322,7 @@
           </div>
           <div class="faq-item">
             <h3>What is the AI Briefing?</h3>
-            <p>A single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now.</p>
+            <p>A single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. There is no cost to the host organization.</p>
           </div>
           <div class="faq-item">
             <h3>What is the AI Workshop?</h3>
@@ -335,7 +346,7 @@
           </div>
           <div class="faq-item">
             <h3>What does it cost?</h3>
-            <p>Briefing arrangements are agreed with each partner. Workshop details come in a first conversation.</p>
+            <p>Briefings are free for host organizations. Workshop details come in a first conversation.</p>
           </div>
           <div class="faq-item">
             <h3>Have you launched?</h3>
@@ -356,8 +367,8 @@
     <section id="contact" class="band-white">
       <div class="wrap section contact">
         <div class="contact-intro">
-          <h2 class="display teal">Bring us a challenge.</h2>
-          <p class="statement">Tell us what you're facing. We'll tell you honestly whether we can help.</p>
+          <h2 class="display teal">Let's get started.</h2>
+          <p class="statement">Tell us what you need. We'll reply with next steps.</p>
         </div>
         <div class="signup-form-wrap">
           <!-- Messages go to Formspree (see README). -->
@@ -417,7 +428,7 @@
               <label for="message">Your challenge <span class="muted">(optional)</span></label>
               <textarea id="message" name="message" rows="4"></textarea>
             </div>
-            <button type="submit" class="btn btn-dark btn-lg">Send</button>
+            <button type="submit" class="btn btn-dark btn-lg">Send request</button>
             <p class="small"><a href="privacy.html">See our Privacy Policy</a></p>
             <p class="form-error" role="alert" hidden>Something went wrong. Please try again or email hello@goingendo.com.</p>
           </form>

@@ -91,7 +91,11 @@ p { margin: 0; }
 .hero { text-align: center; display: flex; flex-direction: column; align-items: center; padding-top: clamp(96px, 16vw, 200px); padding-bottom: clamp(96px, 16vw, 200px); }
 .hero h1 { max-width: 15ch; margin-bottom: 24px; }
 .hero-sub { font-family: var(--display); font-weight: 600; font-size: clamp(1.3rem, 2.6vw, 1.9rem); letter-spacing: -0.02em; color: var(--teal); margin-bottom: 24px; }
-.hero-lead { text-wrap: balance; font-size: clamp(1.2rem, 2.2vw, 1.5rem); line-height: 1.45; color: #3A4241; max-width: 40rem; margin-bottom: 44px; }
+.paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 24px; width: 100%; max-width: 920px; margin-top: 24px; }
+.path { background: var(--white); border-radius: 28px; padding: clamp(32px, 4vw, 48px); display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.path h2 { font-size: clamp(1.6rem, 2.8vw, 2.1rem); color: var(--teal); }
+.path p { font-size: clamp(1.1rem, 1.8vw, 1.3rem); color: #3A4241; margin-bottom: 16px; text-wrap: pretty; }
+.path .btn { margin-top: auto; }
 .hero-note { margin-top: 20px; font-size: 0.95rem; color: var(--muted); }
 
 /* Bands */
