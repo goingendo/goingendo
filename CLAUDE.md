@@ -4,7 +4,7 @@ Positioning: Find the AI worth doing. Going Endo helps leadership teams choose t
 
 How it works: Learn, Choose, Plan. Two ways in: the AI Briefing (associations, chambers, and innovation agencies) and the AI Workshop (leadership teams). Available in the United States, the UAE, Singapore, the UK, and Switzerland. Online or in person. Do not mention Salt Lake City or "based in" in visible copy; the address lives only in the Organization JSON-LD.
 
-The site is in prelaunch and has one action: Discuss a challenge (the form at `#contact`).
+The site is in prelaunch and has two actions, both leading to the form at `#contact`: "Host a briefing" for partners and "Book a workshop" for companies. Each button preselects the matching "I'm interested in" option. Briefings are free for host organizations; no prices appear on the site. The hero keeps the tagline "Your industry. Your challenge. One clear answer." and the note "Now inviting our first partners and clients."
 
 ## Writing rules (always)
 
