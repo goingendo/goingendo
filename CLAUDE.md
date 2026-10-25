@@ -52,4 +52,4 @@ Fonts: Sora for headings, Inter for body. Colors are defined as variables at the
 - Every new page must include the Google tag G-PE0M7C7KN4 right after <head>.
 - New pages reuse the same header, footer, and styles.css as index.html, and get added to sitemap.xml.
 - Keep privacy.html accurate when adding any new service, form, or tracking.
-- Contact: hello@goingendo.com
+- Never show an email address on the site, in the JSON-LD, or in llms.txt. All contact goes through the form at `#contact`.
