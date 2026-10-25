@@ -129,7 +129,7 @@ p { margin: 0; }
 
 /* What we don't do */
 .band-dark .display { max-width: 18ch; }
-.band-dark .statement { color: var(--ivory); }
+.band-dark .statement { color: var(--ivory); text-wrap: balance; }
 .band-dark .statement.light { color: var(--on-dark); margin-bottom: 12px; }
 
 /* About */
