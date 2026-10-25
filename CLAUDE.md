@@ -53,3 +53,5 @@ Fonts: Sora for headings, Inter for body. Colors are defined as variables at the
 - New pages reuse the same header, footer, and styles.css as index.html, and get added to sitemap.xml.
 - Keep privacy.html accurate when adding any new service, form, or tracking.
 - Never show an email address on the site, in the JSON-LD, or in llms.txt. All contact goes through the form at `#contact`.
+- Stripe keys (`STRIPE_SECRET_KEY`, `STRIPE_PRICE_ID`) live only in Vercel environment variables. Never put a key or price ID in any file.
+- `/pay` (rewritten to `api/checkout.js` in `vercel.json`) is a private checkout link sent only to confirmed clients. Never link it from the site, and keep `/pay` and `paid.html` out of the nav and `sitemap.xml`. `paid.html` stays `noindex`. Every "Book a workshop" button points to the contact form.

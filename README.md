@@ -33,6 +33,17 @@ Google Analytics tag `G-PE0M7C7KN4` sits right after `<head>` on every page.
 
 This repo deploys on Vercel from `main`. It is a static site, so Vercel needs no build settings: framework preset Other, no build command, output directory is the repo root.
 
+### Private payment link
+
+`api/checkout.js` is a Vercel serverless function (no npm packages). `vercel.json` rewrites `/pay` to it. It creates a Stripe Checkout Session for one workshop and redirects to Stripe. After payment Stripe returns the client to `paid.html`, which is `noindex` and not linked from the site.
+
+Set these in Vercel under Project Settings → Environment Variables (never in a file):
+
+- `STRIPE_SECRET_KEY`: the Stripe secret key
+- `STRIPE_PRICE_ID`: the price ID of the AI Workshop product
+
+Redeploy after changing them. `/pay` is sent only to confirmed clients and is never linked from the site.
+
 ### Writing rules for this site
 
 No hyphens or dashes in sentences. No commas in headings. No small label lines above headlines. See `CLAUDE.md` for the full brand guide.
