@@ -18,8 +18,8 @@ Not yet launched. Going Endo is inviting its first partners and clients now.
 
 ## Two ways in
 
-- Going Endo AI Briefing: a single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. Briefing arrangements are agreed with each partner.
-- Going Endo AI Use Case Workshop: an online workshop for one company's leadership team. You leave with a written assessment of one AI use case: the value to your business and the people it affects, the risks, and a plan to test it. Workshop details come in a first conversation.
+- AI Briefing: a single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. Briefing arrangements are agreed with each partner.
+- AI Workshop: an online workshop for one company's leadership team. You leave with a written assessment of one AI use case: the value to your business and the people it affects, the risks, and a plan to test it. Workshop details come in a first conversation.
 
 ## Who it is for
 
@@ -36,5 +36,5 @@ AI first. Then connected devices, robotics, and immersive technology where they 
 
 ## Pages
 
-- [Home](https://goingendo.com/): how it works, the AI Briefing and AI Use Case Workshop, FAQ, and the contact form
+- [Home](https://goingendo.com/): how it works, the AI Briefing and AI Workshop, FAQ, and the contact form
 - [Privacy Policy](https://goingendo.com/privacy.html): what the contact form collects and how it is used

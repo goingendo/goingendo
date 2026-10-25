@@ -9,7 +9,7 @@ Find the AI worth doing. Going Endo helps leadership teams choose the AI use cas
 
 ### Files
 
-- `index.html` is the home page: hero, how it works, example, two ways in (AI Briefing and AI Use Case Workshop), what we don't do, where, about, FAQ, and the contact form
+- `index.html` is the home page: hero, how it works, example, two ways in (AI Briefing and AI Workshop), what we don't do, where, about, FAQ, and the contact form
 - `privacy.html` is the privacy policy (update its effective date when you change it)
 - `styles.css` holds colors, fonts, and layout (palette at the top)
 - `script.js` runs the mobile menu and the contact form
