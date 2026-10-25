@@ -2,7 +2,7 @@
 
 Positioning: Find the AI worth doing. Going Endo helps leadership teams choose the AI use case that pays off twice: for the business, and for the customers, workers, and suppliers it depends on. The name means "going within": we go inside your company and your industry. Everything on the site supports this.
 
-How it works: Learn, Choose, Plan. Two ways in: the Going Endo AI Briefing (associations, chambers, and innovation agencies) and the Going Endo AI Use Case Workshop (leadership teams). Markets: United States, United Arab Emirates, Singapore, United Kingdom, Switzerland. Based in Salt Lake City, delivered online.
+How it works: Learn, Choose, Plan. Two ways in: the AI Briefing (associations, chambers, and innovation agencies) and the AI Workshop (leadership teams). Markets: United States, United Arab Emirates, Singapore, United Kingdom, Switzerland. Based in Salt Lake City, online everywhere, in person on request.
 
 The site is in prelaunch and has one action: Discuss a challenge (the form at `#contact`).
 
@@ -18,6 +18,7 @@ Apply to all visible text on the site.
 - No prices, dates, or timelines
 - Never invent clients, partners, or results
 - Going Endo does not build or sell technology
+- On Going Endo's own site the offers are "AI Briefing" and "AI Workshop". Add "Going Endo" only where the brand isn't visible. Never use "Endo" alone.
 
 ## Brand voice
 
