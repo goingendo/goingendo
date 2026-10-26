@@ -17,6 +17,55 @@ if (toggle && links) {
   );
 }
 
+// Hero: the ideas change with the industry dropdown
+const industryIdeas = {
+  'Manufacturing': [
+    ['Predict breakdowns before they happen.', 'Less downtime. Safer shifts.'],
+    ['Cut energy use on the line.', 'Lower bills. Lower emissions.'],
+    ['Spot defects with cameras.', 'Less scrap. Less waste.'],
+  ],
+  'Logistics': [
+    ['Plan smarter delivery routes.', 'Lower fuel costs. Fewer emissions.'],
+    ['Forecast demand ahead of time.', 'Less overstock. Fewer rush shifts.'],
+    ['Automate the paperwork.', 'Faster billing. Less overtime.'],
+  ],
+  'Healthcare': [
+    ['Draft visit notes automatically.', 'More time with patients. Less burnout.'],
+    ['Predict missed appointments.', 'Fuller schedules. Patients seen sooner.'],
+    ['Answer patient questions around the clock.', 'Fewer calls. Faster help.'],
+  ],
+  'Professional services': [
+    ['Draft proposals and reports faster.', 'More billable time. Fewer late nights.'],
+    ['Find past work instantly.', 'Faster answers. Less repeated effort.'],
+    ['Sort and prioritize leads.', 'More wins. Less wasted time.'],
+  ],
+  'Financial services': [
+    ['Flag fraud sooner.', 'Fewer losses. Customers protected.'],
+    ['Speed up loan reviews.', 'Faster decisions. More small businesses served.'],
+    ['Answer customer questions instantly.', 'Lower costs. Happier customers.'],
+  ],
+  'Construction': [
+    ['Estimate jobs faster.', 'More bids. Fewer errors.'],
+    ['Spot safety risks in site photos.', 'Fewer incidents. Safer crews.'],
+    ['Track materials on every job.', 'Less waste. Lower costs.'],
+  ],
+};
+const industry = document.getElementById('industry');
+const ideasList = document.getElementById('ideas');
+if (industry && ideasList) {
+  const showIdeas = () => {
+    ideasList.replaceChildren(...(industryIdeas[industry.value] || []).map(([idea, payoff]) => {
+      const li = document.createElement('li');
+      const strong = document.createElement('strong');
+      strong.textContent = idea;
+      li.append(strong, ' ' + payoff);
+      return li;
+    }));
+  };
+  industry.addEventListener('change', showIdeas);
+  showIdeas();
+}
+
 // Footer year
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
@@ -56,6 +105,7 @@ if (form) {
     if (!form.checkValidity()) { form.reportValidity(); return; }
     error.hidden = true;
     const btn = form.querySelector('button[type="submit"]');
+    const label = btn.textContent;
     btn.disabled = true;
     btn.textContent = 'Sending…';
     try {
@@ -74,7 +124,7 @@ if (form) {
     } catch (err) {
       error.hidden = false;
       btn.disabled = false;
-      btn.textContent = 'Send request';
+      btn.textContent = label;
     }
   });
 }

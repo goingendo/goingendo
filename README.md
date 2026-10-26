@@ -9,21 +9,24 @@ Find the AI worth doing. Going Endo helps leadership teams choose the AI use cas
 
 ### Files
 
-- `index.html` is the home page: hero, how it works, example, two ways in (AI Briefing and AI Workshop, with the availability line), what we don't do, about, FAQ, and the contact form
+- `index.html` is the home page: hero with the industry dropdown and AI ideas, how it works, a sample AI Opportunity Brief, and the workshop booking form (`#book`)
+- `partners.html` is the page for associations, chambers, and innovation agencies, with the briefing form
+- `faq.html` is the FAQ page, with every question and answer and the founder
 - `privacy.html` is the privacy policy (update its effective date when you change it)
+- `paid.html` is the private payment confirmation page (`noindex`, not linked)
 - `styles.css` holds colors, fonts, and layout (palette at the top)
-- `script.js` runs the mobile menu and the contact form
+- `script.js` runs the mobile menu, the industry ideas, the button preselect, and the forms
 - `assets/` holds the logo, icons, and founder photo (`founder.jpg`, square)
 - `sitemap.xml` and `robots.txt` point search engines at https://goingendo.com
 - `llms.txt` is a plain text summary for AI assistants
 
 ### FAQ and structured data
 
-The `<head>` of `index.html` has JSON-LD for the Organization and an FAQPage. The FAQPage questions and answers must match the visible FAQ section word for word, so edit both together.
+`index.html` has the Organization JSON-LD. `faq.html` has the FAQPage JSON-LD, whose questions and answers must match the visible FAQ on that page word for word, so edit both together.
 
 ### Contact form
 
-Messages go to Formspree form `xjyykvle` (the form's `action` in `index.html`). Fields: name, work email, organization, organization type, country, interest, and an optional challenge. Submissions show up in the Formspree dashboard and by email. A successful message sends a `generate_lead` event to Google Analytics with no form values.
+Messages go to Formspree form `xjyykvle` (the form's `action` in `index.html` and `partners.html`). The home form preselects a workshop; the partners form preselects a briefing. Fields: name, work email, organization, organization type, country, interest, and an optional challenge. Submissions show up in the Formspree dashboard and by email. A successful message sends a `generate_lead` event to Google Analytics with no form values.
 
 ### Analytics
 

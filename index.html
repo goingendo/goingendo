@@ -30,7 +30,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <!-- Keep the FAQPage answers identical to the visible FAQ section -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -82,100 +81,6 @@
             "identifier": "CH"
           }
         ]
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://goingendo.com/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is Going Endo?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Going Endo helps leadership teams choose the AI use case worth pursuing, one that pays off for the business and the people it depends on, then build it."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the AI Briefing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. There is no cost to the host organization."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the AI Workshop?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "An online or in person workshop for one company's leadership team. You leave with an AI Opportunity Brief for one AI use case: the value to your business and the people it affects, the risks, and a plan to test it."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you build the AI?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, through an AI Sprint. Our specialist partners build and test the use case you chose. We manage the project and stay accountable to you."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is an AI Sprint?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A focused project that builds and tests the use case from your AI Opportunity Brief. Scope and price are agreed after the workshop."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Who is it for?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Leadership teams of established companies, and the associations, chambers, and agencies that support them."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Where is it available?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The United States, the United Arab Emirates, Singapore, the United Kingdom, and Switzerland. Online or in person."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Which technologies?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "AI first. Then connected devices, robotics, and immersive technology where they fit."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What does it cost?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Briefings are free for host organizations. Workshop details come in a first conversation."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Have you launched?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Not yet. We're inviting our first partners and clients now."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What does the name mean?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Going within. We work inside your company and your industry."
-            }
-          }
-        ]
       }
     ]
   }
@@ -195,9 +100,9 @@
       </button>
       <div class="nav-links" id="nav-links">
         <a href="#how-it-works">How it works</a>
-        <a href="#faq">FAQ</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="btn btn-dark btn-sm" data-interest="briefing">Host a briefing</a>
+        <a href="partners.html">For partners</a>
+        <a href="faq.html">FAQ</a>
+        <a href="#book" class="btn btn-dark btn-sm" data-interest="workshop">Book a workshop</a>
       </div>
     </nav>
   </header>
@@ -206,153 +111,100 @@
     <!-- HERO -->
     <section id="top" class="wrap hero">
       <h1>Find the AI worth doing.</h1>
-      <p class="hero-lead">Going Endo sits down with your leadership team for a half day workshop to find the one AI project that will pay off for your business. Then we build it for you with our specialists.</p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-dark btn-lg" data-interest="workshop">Book a workshop</a>
-        <a href="#contact" class="btn btn-outline btn-lg" data-interest="briefing">Host a briefing for your members</a>
-      </div>
-      <p class="hero-note">Now inviting our first partners and clients.</p>
+      <p class="industry-line">
+        <label for="industry">I run a</label>
+        <select id="industry" class="industry-select">
+          <option selected>Manufacturing</option>
+          <option>Logistics</option>
+          <option>Healthcare</option>
+          <option>Professional services</option>
+          <option>Financial services</option>
+          <option>Construction</option>
+        </select>
+        <span>business.</span>
+      </p>
+      <ul class="ideas" id="ideas" aria-live="polite">
+          <li><strong>Predict breakdowns before they happen.</strong> Less downtime. Safer shifts.</li>
+          <li><strong>Cut energy use on the line.</strong> Lower bills. Lower emissions.</li>
+          <li><strong>Spot defects with cameras.</strong> Less scrap. Less waste.</li>
+      </ul>
+      <p class="hero-note">Examples of common AI uses. Your workshop finds yours.</p>
+      <a href="#book" class="btn btn-dark btn-lg hero-cta" data-interest="workshop">Find yours in a half day workshop</a>
     </section>
 
     <!-- HOW IT WORKS -->
     <section id="how-it-works" class="band-white">
       <div class="wrap section">
-        <h2 class="display teal">Start with a workshop. Then build it.</h2>
-        <ol class="steps">
-          <li class="step">
+        <h2 class="display teal">Here's how it works.</h2>
+        <ol class="tiles">
+          <li class="tile">
             <h3>AI Workshop.</h3>
-            <p>Pick the one use case worth doing. Leave with your AI Opportunity Brief.</p>
+            <p>A half day with your leadership team.</p>
           </li>
-          <li class="step">
+          <li class="tile">
+            <h3>AI Opportunity Brief.</h3>
+            <p>One page: the problem, the payoff, the smallest test.</p>
+          </li>
+          <li class="tile">
             <h3>AI Sprint.</h3>
-            <p>Build it and test it with our specialists.</p>
+            <p>We build it and test it with our specialists.</p>
           </li>
         </ol>
-        <div class="steps-cta">
-          <a href="#contact" class="btn btn-dark btn-lg" data-interest="workshop">Book a workshop</a>
-        </div>
       </div>
     </section>
 
-    <!-- EXAMPLE -->
-    <section id="example" class="wrap section center-block">
-      <h2 class="display teal">What paying off twice looks like.</h2>
-      <p class="statement-lg">A manufacturer uses AI to cut its energy use.</p>
-      <p class="statement-accent">Costs drop. Emissions drop. Workers learn new skills.</p>
-      <p class="fine">An example of the kind of use case we help choose and build. Not a client story.</p>
-    </section>
-
-    <!-- TWO WAYS IN -->
-    <section id="two-ways-in" class="band-white">
-      <div class="wrap section">
-        <div class="ways">
-          <article class="way">
-            <h3>AI Briefing</h3>
-            <p class="way-audience">Lead a group of businesses?</p>
-            <p class="way-big">Show your members what AI can do for their industry.</p>
-            <ul class="way-list">
-              <li>One session.</li>
-              <li>Built for your industry.</li>
-              <li>Prepared and delivered by us.</li>
-              <li>No cost to your organization.</li>
-            </ul>
-            <a href="#contact" class="btn btn-dark" data-interest="briefing">Host a briefing</a>
-          </article>
-          <article class="way way-dark">
-            <h3>AI Workshop</h3>
-            <p class="way-audience">Lead a company?</p>
-            <p class="way-big">Decide which AI is worth doing.</p>
-            <ul class="way-list">
-              <li>Your leaders. Your challenges.</li>
-              <li>Your AI Opportunity Brief.</li>
-              <li>A clear path to build it.</li>
-            </ul>
-            <a href="#contact" class="btn btn-lime" data-interest="workshop">Book a workshop</a>
-          </article>
+    <!-- SAMPLE BRIEF -->
+    <section id="sample-brief" class="wrap section">
+      <h2 class="display teal">What you walk away with.</h2>
+      <article class="brief" aria-label="Sample AI Opportunity Brief">
+        <span class="brief-tag">Sample</span>
+        <header class="brief-head">
+          <p class="brief-title">AI Opportunity Brief</p>
+          <p class="brief-for">For a fictional manufacturer</p>
+        </header>
+        <div class="brief-body">
+            <div class="brief-row">
+              <h3>The problem.</h3>
+              <p>Unplanned machine stops on the main production line.</p>
+            </div>
+            <div class="brief-row">
+              <h3>What it costs today.</h3>
+              <p>Lost output, overtime to catch up, and rush orders for spare parts.</p>
+            </div>
+            <div class="brief-row">
+              <h3>The AI use case.</h3>
+              <p>Use the sensor data the machines already collect to predict breakdowns before they happen.</p>
+            </div>
+            <div class="brief-row">
+              <h3>Payoff for the business.</h3>
+              <p>Less downtime, fewer emergency repairs, and steadier output.</p>
+            </div>
+            <div class="brief-row">
+              <h3>Payoff for your people and partners.</h3>
+              <p>Safer, calmer shifts for operators. More reliable deliveries for customers and suppliers.</p>
+            </div>
+            <div class="brief-row">
+              <h3>Risks.</h3>
+              <p>Sensor data may be patchy. Operators need to trust the alerts before they act on them.</p>
+            </div>
+            <div class="brief-row">
+              <h3>The smallest test.</h3>
+              <p>Run predictions on one line and compare its stops with a similar line that runs as usual.</p>
+            </div>
         </div>
-        <p class="availability">Available in the United States, the UAE, Singapore, the UK, and Switzerland. Online or in person.</p>
-      </div>
+      </article>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="band-white">
-      <div class="wrap section about">
-        <div class="about-copy">
-          <h2 class="display teal">Going Endo means going within.</h2>
-          <p class="statement">Most programs send leaders away to learn. We go inside your company and your industry.</p>
-        </div>
-        <div class="founder">
-          <img src="assets/founder.jpg" alt="Matthew Hill" class="founder-photo" width="120" height="120" loading="lazy">
-          <div>
-            <h3>Matthew Hill</h3>
-            <p class="founder-title">Founder</p>
-            <p>Matthew started Going Endo to help leaders answer one question: what should we actually do with AI?</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ (keep in sync with the FAQPage JSON-LD in <head>) -->
-    <section id="faq" class="wrap section">
-      <h2 class="display teal">FAQ</h2>
-      <div class="faq">
-          <div class="faq-item">
-            <h3>What is Going Endo?</h3>
-            <p>Going Endo helps leadership teams choose the AI use case worth pursuing, one that pays off for the business and the people it depends on, then build it.</p>
-          </div>
-          <div class="faq-item">
-            <h3>What is the AI Briefing?</h3>
-            <p>A single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. There is no cost to the host organization.</p>
-          </div>
-          <div class="faq-item">
-            <h3>What is the AI Workshop?</h3>
-            <p>An online or in person workshop for one company's leadership team. You leave with an AI Opportunity Brief for one AI use case: the value to your business and the people it affects, the risks, and a plan to test it.</p>
-          </div>
-          <div class="faq-item">
-            <h3>Do you build the AI?</h3>
-            <p>Yes, through an AI Sprint. Our specialist partners build and test the use case you chose. We manage the project and stay accountable to you.</p>
-          </div>
-          <div class="faq-item">
-            <h3>What is an AI Sprint?</h3>
-            <p>A focused project that builds and tests the use case from your AI Opportunity Brief. Scope and price are agreed after the workshop.</p>
-          </div>
-          <div class="faq-item">
-            <h3>Who is it for?</h3>
-            <p>Leadership teams of established companies, and the associations, chambers, and agencies that support them.</p>
-          </div>
-          <div class="faq-item">
-            <h3>Where is it available?</h3>
-            <p>The United States, the United Arab Emirates, Singapore, the United Kingdom, and Switzerland. Online or in person.</p>
-          </div>
-          <div class="faq-item">
-            <h3>Which technologies?</h3>
-            <p>AI first. Then connected devices, robotics, and immersive technology where they fit.</p>
-          </div>
-          <div class="faq-item">
-            <h3>What does it cost?</h3>
-            <p>Briefings are free for host organizations. Workshop details come in a first conversation.</p>
-          </div>
-          <div class="faq-item">
-            <h3>Have you launched?</h3>
-            <p>Not yet. We're inviting our first partners and clients now.</p>
-          </div>
-          <div class="faq-item">
-            <h3>What does the name mean?</h3>
-            <p>Going within. We work inside your company and your industry.</p>
-          </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="band-white">
+    <!-- BOOK -->
+    <section id="book" class="band-white">
       <div class="wrap section contact">
         <div class="contact-intro">
-          <h2 class="display teal">Let's get started.</h2>
-          <p class="statement">Tell us what you need. We'll reply with next steps.</p>
+          <h2 class="display teal">Book a workshop.</h2>
+          <p class="statement">Tell us about your business. We'll reply with dates and next steps.</p>
         </div>
         <div class="signup-form-wrap">
           <!-- Messages go to Formspree (see README). -->
-          <form name="discuss-challenge" method="POST" action="https://formspree.io/f/xjyykvle" id="signup-form">
+          <form name="book-workshop" method="POST" action="https://formspree.io/f/xjyykvle" id="signup-form">
             <p class="hidden"><label>Leave this empty <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
             <div class="row">
               <div class="field">
@@ -397,9 +249,9 @@
               <div class="field">
                 <label for="interest">I'm interested in</label>
                 <select id="interest" name="interest" required>
-                  <option value="" disabled selected>Choose one</option>
+                  <option value="" disabled>Choose one</option>
                   <option>A briefing for our members</option>
-                  <option>A workshop for our leadership team</option>
+                  <option selected>A workshop for our leadership team</option>
                   <option>Something else</option>
                 </select>
               </div>
@@ -427,8 +279,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer">
-      <p><span class="wordmark">Going Endo</span> · Find the AI worth doing.</p>
-      <p><a href="privacy.html">Privacy Policy</a></p>
+      <p><a href="partners.html">For partners</a> · <a href="faq.html">FAQ</a> · <a href="privacy.html">Privacy Policy</a></p>
       <p>© <span id="year">2026</span> Going Endo LLC</p>
     </div>
   </footer>

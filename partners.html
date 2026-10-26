@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PE0M7C7KN4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PE0M7C7KN4');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>For partners | Going Endo</title>
+  <meta name="description" content="Going Endo runs a free online AI Briefing for the members of associations, chambers, and innovation agencies.">
+  <link rel="canonical" href="https://goingendo.com/partners.html">
+  <meta name="theme-color" content="#123C3A">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Main">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.jpg" alt="" width="44" height="44">
+        <span>GOING ENDO</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="partners.html" aria-current="page">For partners</a>
+        <a href="faq.html">FAQ</a>
+        <a href="index.html#book" class="btn btn-dark btn-sm">Book a workshop</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="wrap hero partners-hero">
+      <h1>Give your members an AI edge.</h1>
+      <p class="hero-lead">Going Endo runs a free online AI Briefing for your members. They see what AI can do in their industry. You get a valuable session with no work on your side.</p>
+      <ul class="tiles tiles-short">
+        <li class="tile"><h2>We prepare it.</h2></li>
+        <li class="tile"><h2>We deliver it.</h2></li>
+        <li class="tile"><h2>No cost to you.</h2></li>
+      </ul>
+    </section>
+
+    <section id="host" class="band-white">
+      <div class="wrap section">
+        <div class="signup-form-wrap partners-form">
+          <!-- Messages go to Formspree (see README). -->
+          <form name="host-briefing" method="POST" action="https://formspree.io/f/xjyykvle" id="signup-form">
+            <p class="hidden"><label>Leave this empty <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+            <div class="row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Work email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="organization">Organization</label>
+                <input id="organization" name="organization" type="text" autocomplete="organization" required>
+              </div>
+              <div class="field">
+                <label for="organization-type">I am</label>
+                <select id="organization-type" name="organization_type" required>
+                  <option value="" disabled selected>Choose one</option>
+                  <option>A company</option>
+                  <option>An association or chamber</option>
+                  <option>An innovation or economic development agency</option>
+                  <option>A university or research institution</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                  <option value="" disabled selected>Choose one</option>
+                  <option>United States</option>
+                  <option>United Arab Emirates</option>
+                  <option>Singapore</option>
+                  <option>United Kingdom</option>
+                  <option>Switzerland</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="interest">I'm interested in</label>
+                <select id="interest" name="interest" required>
+                  <option value="" disabled>Choose one</option>
+                  <option selected>A briefing for our members</option>
+                  <option>A workshop for our leadership team</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+            </div>
+            <div class="field" id="members-field" hidden>
+              <label for="members">Approximate number of members <span class="muted">(optional)</span></label>
+              <input id="members" name="members" type="number" min="1" step="1" inputmode="numeric" disabled>
+            </div>
+            <div class="field">
+              <label for="message">Your challenge <span class="muted">(optional)</span></label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark btn-lg">Host a briefing</button>
+            <p class="small"><a href="privacy.html">See our Privacy Policy</a></p>
+            <p class="form-error" role="alert" hidden>Something went wrong. Please try again.</p>
+          </form>
+          <div class="thanks" role="status" hidden>
+            <p class="thanks-title">Thank you.</p>
+            <p>We'll be in touch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer">
+      <p><a href="partners.html" aria-current="page">For partners</a> · <a href="faq.html">FAQ</a> · <a href="privacy.html">Privacy Policy</a></p>
+      <p>© <span id="year">2026</span> Going Endo LLC</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

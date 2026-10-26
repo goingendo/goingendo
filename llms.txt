@@ -12,8 +12,18 @@ Not yet launched. Going Endo is inviting its first partners and clients now.
 
 ## How it works
 
-1. AI Workshop: pick the one use case worth doing. Leave with your AI Opportunity Brief.
-2. AI Sprint: build it and test it with our specialists.
+1. AI Workshop: a half day with your leadership team.
+2. AI Opportunity Brief: one page with the problem, the payoff, and the smallest test.
+3. AI Sprint: we build it and test it with our specialists.
+
+Common AI uses by industry (examples, not results; the workshop finds the right one for each company):
+
+- Manufacturing: predict breakdowns before they happen; cut energy use on the line; spot defects with cameras.
+- Logistics: plan smarter delivery routes; forecast demand ahead of time; automate the paperwork.
+- Healthcare: draft visit notes automatically; predict missed appointments; answer patient questions around the clock.
+- Professional services: draft proposals and reports faster; find past work instantly; sort and prioritize leads.
+- Financial services: flag fraud sooner; speed up loan reviews; answer customer questions instantly.
+- Construction: estimate jobs faster; spot safety risks in site photos; track materials on every job.
 
 ## Offers
 
@@ -31,10 +41,13 @@ AI first. Then connected devices, robotics, and immersive technology where they 
 
 ## Get in touch
 
-- Host a briefing or book a workshop: https://goingendo.com/#contact
-- Questions: use the contact form on the home page: https://goingendo.com/#contact
+- Book a workshop: https://goingendo.com/#book
+- Host a free AI Briefing for your members: https://goingendo.com/partners.html
+- Questions: use the form on the home page: https://goingendo.com/#book
 
 ## Pages
 
-- [Home](https://goingendo.com/): how it works, the AI Briefing and AI Workshop, FAQ, and the contact form
+- [Home](https://goingendo.com/): AI ideas by industry, how it works, a sample AI Opportunity Brief, and the workshop booking form
+- [For partners](https://goingendo.com/partners.html): the free AI Briefing for associations, chambers, and innovation agencies, with a form to host one
+- [FAQ](https://goingendo.com/faq.html): questions and answers about Going Endo, the AI Briefing, AI Workshop, and AI Sprint, availability, and who is behind Going Endo
 - [Privacy Policy](https://goingendo.com/privacy.html): what the contact form collects and how it is used
