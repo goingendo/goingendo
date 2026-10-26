@@ -4,7 +4,7 @@
 
 Going Endo is available in the United States, the United Arab Emirates, Singapore, the United Kingdom, and Switzerland, online or in person. The name means "going within": we work inside your company and your industry.
 
-Going Endo does not build or sell technology. It helps you choose, and when the work needs specialists, it brings them in.
+Going Endo sells no software. It helps you choose the right AI first, then builds it through an AI Sprint with trusted specialist partners. Going Endo manages the project and stays accountable to you.
 
 ## Status
 
@@ -12,14 +12,15 @@ Not yet launched. Going Endo is inviting its first partners and clients now.
 
 ## How it works
 
-1. Learn: see what AI can actually do in your industry today.
-2. Choose: pick the one use case that pays off for your business and the people around it.
-3. Plan: leave with a written assessment of that use case and a plan to test it.
+1. AI Briefing: see what AI can do in your industry.
+2. AI Workshop: pick the one use case worth doing. Leave with your AI Opportunity Brief.
+3. AI Sprint: build it and test it with our specialists.
 
-## Two ways in
+## Offers
 
 - AI Briefing: a single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. There is no cost to the host organization.
-- AI Workshop: an online or in person workshop for one company's leadership team. You leave with a written assessment of one AI use case: the value to your business and the people it affects, the risks, and a plan to test it. Workshop details come in a first conversation.
+- AI Workshop: an online or in person workshop for one company's leadership team. You leave with an AI Opportunity Brief for one AI use case: the value to your business and the people it affects, the risks, and a plan to test it. Workshop details come in a first conversation.
+- AI Sprint: after the workshop, a focused project that builds and tests the use case from your AI Opportunity Brief. Specialist partners build it; Going Endo manages the project. Scope and price are agreed after the workshop.
 
 ## Who it is for
 

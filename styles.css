@@ -103,8 +103,10 @@ p { margin: 0; }
 .band-dark { background: var(--teal); color: var(--ivory); }
 
 /* How it works */
-.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 56px 48px; }
-.step h3 { font-size: clamp(2rem, 3.6vw, 2.75rem); color: var(--teal); letter-spacing: -0.03em; margin-bottom: 14px; }
+.steps { list-style: none; margin: 0; padding: 0; counter-reset: step; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 56px 48px; }
+.step { counter-increment: step; }
+.step h3 { font-size: clamp(1.75rem, 2.6vw, 2.25rem); color: var(--teal); letter-spacing: -0.03em; margin-bottom: 14px; }
+.step h3::before { content: counter(step) ". "; color: var(--sage); }
 .step p { font-size: 1.125rem; color: var(--muted); max-width: 22rem; }
 
 /* Centered statements */

@@ -2,7 +2,7 @@
 
 Positioning: Find the AI worth doing. Going Endo helps leadership teams choose the AI use case that pays off twice: for the business, and for the customers, workers, and suppliers it depends on. The name means "going within": we go inside your company and your industry. Everything on the site supports this.
 
-How it works: Learn, Choose, Plan. Two ways in: the AI Briefing (associations, chambers, and innovation agencies) and the AI Workshop (leadership teams). Available in the United States, the UAE, Singapore, the UK, and Switzerland. Online or in person. Do not mention Salt Lake City or "based in" in visible copy; the address lives only in the Organization JSON-LD.
+How it works: AI Briefing, AI Workshop (ends with the AI Opportunity Brief), AI Sprint. Two ways in: the AI Briefing (associations, chambers, and innovation agencies) and the AI Workshop (leadership teams). Available in the United States, the UAE, Singapore, the UK, and Switzerland. Online or in person. Do not mention Salt Lake City or "based in" in visible copy; the address lives only in the Organization JSON-LD.
 
 The site is in prelaunch and has two actions, both leading to the form at `#contact`: "Host a briefing" for partners and "Book a workshop" for companies. Each button preselects the matching "I'm interested in" option. Briefings are free for host organizations; no prices appear on the site. The hero keeps the tagline "Your industry. Your challenge. One clear answer." and the note "Now inviting our first partners and clients."
 
@@ -17,8 +17,8 @@ Apply to all visible text on the site.
 - Never mention Singularity University or PwC
 - No prices, dates, or timelines
 - Never invent clients, partners, or results
-- Going Endo does not build or sell technology
-- On Going Endo's own site the offers are "AI Briefing" and "AI Workshop". Add "Going Endo" only where the brand isn't visible. Never use "Endo" alone.
+- Going Endo sells no software. It helps choose AI use cases, then builds them through AI Sprints delivered by specialist partners. Never name a delivery partner on the site.
+- On Going Endo's own site the offers are "AI Briefing", "AI Workshop", and "AI Sprint". Add "Going Endo" only where the brand isn't visible. Never use "Endo" alone.
 
 ## Brand voice
 
