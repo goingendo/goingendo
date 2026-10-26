@@ -9,7 +9,7 @@ Find the AI worth doing. Going Endo helps leadership teams choose the AI use cas
 
 ### Files
 
-- `index.html` is the home page: hero with the industry dropdown and AI ideas, how it works, a sample AI Opportunity Brief, and the workshop booking form (`#book`)
+- `index.html` is the home page: hero with the industry dropdown and AI ideas, how it works, a sample AI Plan, and the workshop booking form (`#book`)
 - `partners.html` is the page for associations, chambers, and innovation agencies, with the briefing form
 - `faq.html` is the FAQ page, with every question and answer and the founder
 - `privacy.html` is the privacy policy (update its effective date when you change it)

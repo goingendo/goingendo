@@ -2,7 +2,7 @@
 
 > Find the AI worth doing. Going Endo helps leadership teams choose the AI use case that pays off for the business and the people it depends on, then build it.
 
-Going Endo is available in the United States, the United Arab Emirates, Singapore, the United Kingdom, and Switzerland, online or in person. The name means "going within": we work inside your company and your industry.
+Going Endo is available online in the United States, the UAE, Singapore, the UK, and Switzerland. The AI Briefing, AI Workshop, and AI Sprint are all online. The name means "going within": we work inside your company and your industry.
 
 Going Endo sells no software. It helps you choose the right AI first, then builds it through an AI Sprint with trusted specialist partners. Going Endo manages the project and stays accountable to you.
 
@@ -12,8 +12,8 @@ Not yet launched. Going Endo is inviting its first partners and clients now.
 
 ## How it works
 
-1. AI Workshop: a half day with your leadership team.
-2. AI Opportunity Brief: one page with the problem, the payoff, and the smallest test.
+1. AI Workshop: an online session with your leadership team.
+2. AI Plan: one page with the problem, the payoff, and the smallest test.
 3. AI Sprint: we build it and test it with our specialists.
 
 Common AI uses by industry (examples, not results; the workshop finds the right one for each company):
@@ -28,8 +28,8 @@ Common AI uses by industry (examples, not results; the workshop finds the right 
 ## Offers
 
 - AI Briefing: a single online session for the member companies of an association, chamber, or innovation agency. It shows what AI can do in their industry right now. There is no cost to the host organization.
-- AI Workshop: an online or in person workshop for one company's leadership team. You leave with an AI Opportunity Brief for one AI use case: the value to your business and the people it affects, the risks, and a plan to test it. Workshop details come in a first conversation.
-- AI Sprint: a focused project that builds and tests the use case from your AI Opportunity Brief. Specialist partners build it; Going Endo manages the project. Scope and price are agreed after the workshop.
+- AI Workshop: an online workshop for one company's leadership team. You leave with an AI Plan for one AI use case: the value to your business and the people it affects, the risks, and the smallest test. Workshop details come in a first conversation.
+- AI Sprint: a focused online project that builds and tests the use case from your AI Plan. Specialist partners build it; Going Endo manages the project. Scope and price are agreed after the workshop.
 
 ## Who it is for
 
@@ -47,7 +47,7 @@ AI first. Then connected devices, robotics, and immersive technology where they 
 
 ## Pages
 
-- [Home](https://goingendo.com/): AI ideas by industry, how it works, a sample AI Opportunity Brief, and the workshop booking form
+- [Home](https://goingendo.com/): AI ideas by industry, how it works, a sample AI Plan, and the workshop booking form
 - [For partners](https://goingendo.com/partners.html): the free AI Briefing for associations, chambers, and innovation agencies, with a form to host one
 - [FAQ](https://goingendo.com/faq.html): questions and answers about Going Endo, the AI Briefing, AI Workshop, and AI Sprint, availability, and who is behind Going Endo
 - [Privacy Policy](https://goingendo.com/privacy.html): what the contact form collects and how it is used

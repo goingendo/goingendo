@@ -2,7 +2,7 @@
 
 Positioning: Find the AI worth doing. Going Endo helps leadership teams choose the AI use case that pays off twice: for the business, and for the customers, workers, and suppliers it depends on. The name means "going within": we go inside your company and your industry. Everything on the site supports this.
 
-How it works: AI Workshop (a half day with the leadership team), then the AI Opportunity Brief (one page: the problem, the payoff, the smallest test), then the AI Sprint (we build it and test it with our specialists). The AI Briefing is the free entry point for associations, chambers, and innovation agencies and lives on the partners page. Available in the United States, the UAE, Singapore, the UK, and Switzerland. Online or in person. Do not mention Salt Lake City or "based in" in visible copy; the address lives only in the Organization JSON-LD.
+How it works: AI Workshop (an online session with the leadership team), then the AI Plan (one page: the problem, the payoff, the smallest test), then the AI Sprint (we build it and test it with our specialists). The AI Briefing is the free entry point for associations, chambers, and innovation agencies and lives on the partners page. Available online in the United States, the UAE, Singapore, the UK, and Switzerland. Do not mention Salt Lake City or "based in" in visible copy; the address lives only in the Organization JSON-LD.
 
 The site is in prelaunch and is shopping first for companies. Two actions: "Book a workshop" (the form at `index.html#book`, workshop preselected) and "Host a briefing" (the form on `partners.html`, briefing preselected). Both forms are the same Formspree form; buttons with `data-interest` or a `?interest=` link preselect "I'm interested in". Briefings are free for host organizations; no prices appear on the site.
 
@@ -19,6 +19,8 @@ Apply to all visible text on the site.
 - Never invent clients, partners, or results
 - Going Endo sells no software. It helps choose AI use cases, then builds them through AI Sprints delivered by specialist partners. Never name a delivery partner on the site.
 - On Going Endo's own site the offers are "AI Briefing", "AI Workshop", and "AI Sprint". Add "Going Endo" only where the brand isn't visible. Never use "Endo" alone.
+- Never use the word opportunity anywhere on the site. The workshop deliverable is called the AI Plan.
+- The AI Briefing, AI Workshop and AI Sprint are online only. Never say in person or half day.
 
 ## Brand voice
 
@@ -48,7 +50,7 @@ Fonts: Sora for headings, Inter for body. Colors are defined as variables at the
 - Deploys on Vercel from `main`.
 - Contact form messages go to Formspree (form action in `index.html`).
 - Pages:
-  - `index.html` (home), in this order only: hero (H1 "Find the AI worth doing.", the "I run a [industry] business." dropdown with three ideas that change per industry, the note "Examples of common AI uses. Your workshop finds yours.", and the button "Find yours in a half day workshop"), "Here's how it works." (three tiles), "What you walk away with." (a sample AI Opportunity Brief for a fictional manufacturer, labeled Sample), and "Book a workshop." (`#book`). It carries the Organization JSON-LD. The industry ideas live in `script.js`; the Manufacturing ideas are also in the HTML for no script visitors.
+  - `index.html` (home), in this order only: hero (H1 "Find the AI worth doing.", the "I run a [industry] business." dropdown with three ideas that change per industry, the note "Examples of common AI uses. Your workshop finds yours.", and the button "Find yours in an online workshop"), "Here's how it works." (three tiles), "What you walk away with." (a sample AI Plan for a fictional manufacturer, labeled Sample), and "Book a workshop." (`#book`). It carries the Organization JSON-LD. The industry ideas live in `script.js`; the Manufacturing ideas are also in the HTML for no script visitors.
   - `partners.html`: H1 "Give your members an AI edge.", the briefing paragraph, three tiles, and the form with briefing preselected and the submit button "Host a briefing".
   - `faq.html`: H1 "Questions and answers." with every FAQ, including who is behind Going Endo (with the founder photo), what the name means, and where it is available. It carries the FAQPage JSON-LD.
 - Nav on every page: How it works, For partners, FAQ, and a "Book a workshop" button. Footer: For partners, FAQ, Privacy Policy, and the copyright line.
